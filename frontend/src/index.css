@@ -3,7 +3,7 @@
 
 /* layout */
 :root {
-  --primary: #1aac83;
+  --primary: #525FE1;
   --error: #e7195a;
 }
 body {
@@ -30,6 +30,9 @@ header a {
   max-width: 1400px;
   padding: 20px;
   margin: 0 auto;
+}
+.title{
+  color: #525FE1;
 }
 
 /* homepage */

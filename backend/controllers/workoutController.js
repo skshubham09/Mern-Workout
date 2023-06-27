@@ -1,6 +1,7 @@
 const Workout = require('../models/workoutModel')
 const mongoose = require('mongoose')
 
+
 // get all workouts
 const getWorkouts = async (req, res) => {
   const user_id = req.user._id
@@ -9,6 +10,7 @@ const getWorkouts = async (req, res) => {
 
   res.status(200).json(workouts)
 }
+
 
 // get a single workout
 const getWorkout = async (req, res) => {
